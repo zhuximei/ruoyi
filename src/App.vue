@@ -6,10 +6,13 @@
 
 <script>
 import RyLogin from "./pages/ry-login"
+import RyPostAdmin from "./pages/ry-postAdmin"
+
 export default {
   name: 'App',
   components:{
-    RyLogin
+    RyLogin,
+    RyPostAdmin
   }
 }
 </script>
